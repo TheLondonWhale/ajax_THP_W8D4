@@ -18,7 +18,7 @@ Comme d'hab', le front c'est du sale...
 
 ## 🎉 Rendu final 🎉
 
-Tu peux retrouver notre application final via 👉 <a href="https://todolist-thp.herokuapp.com/" target="_blank"> Ce lien.</a>
+Tu peux retrouver notre application final via 👉 <a href="https://ajax-de-tes-morts.herokuapp.com/" target="_blank"> Ce lien.</a>
 
 Si tu veux rentrer dans le vif du sujet, clone le repo :
 > `$git clone https://github.com/anais-dlgt/jquery.git`
