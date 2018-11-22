@@ -1,0 +1,34 @@
+<h1> Boîte de réception </h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Mails reçus</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @email.each do |mail| %>
+            <% if mail.read == false %>
+            <tr>
+              <td><%= link_to mail.object, email_show_path(:id => mail.id), :class => "unread", :remote => true%></td>
+            </tr>
+            <% else %>
+            <tr>
+              <td><%= link_to mail.object, email_show_path(:id => mail.id), class:"read", :remote => true%></td>
+            </tr>
+            <% end %>
+        </tbody>
+        <% end %>
+      </table>
+    </div>
+
+    <div class="col">
+      <div id="body_email">
+      </div>
+    </div>
+
+  </div>

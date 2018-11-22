@@ -1,0 +1,4 @@
+<h3><%= @email.object%></h3> <br />
+<%= @email.body %> <br />
+<br />
+<button><%= link_to 'Supprimer', email_delete_path(:id => @email.id), method: :delete, data: { confirm: "En es-tu sûr ?"}, :remote => true %></button>

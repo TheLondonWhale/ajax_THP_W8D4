@@ -1,0 +1,12 @@
+
+$(document).ready(function() {
+// all custom jQuery will go here
+
+function renderPage() {
+    $("#body_email").html("<%= j render 'show' %>");
+    $("#<%= @email.id %>").attr('class','read');
+
+};
+
+renderPage();
+});
