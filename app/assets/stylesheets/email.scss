@@ -2,14 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.unread
-{
-  background-color: black, !important;
-  font-weight: bold;
-}
-
-.read
-{
-  background-color: black, !important;
-  font-weight: bold;
+.read {
+  color: grey;
+  font-style: italic;
 }

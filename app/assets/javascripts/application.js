@@ -14,7 +14,3 @@
 //= require jquery3
 //= require turbolinks
 //= require_tree .
-
-$("a").click(function(){
-    $("a").css("background-color", "red");
-});

@@ -5,7 +5,6 @@ $(document).ready(function() {
 function renderPage() {
     $("#body_email").html("<%= j render 'show' %>");
     $("#<%= @email.id %>").attr('class','read');
-
 };
 
 renderPage();
